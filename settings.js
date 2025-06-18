@@ -1,4 +1,4 @@
-//-------------------[ BOT SETTINGS ]------------------// 
+hmsnr8o8//-------------------[ BOT SETTINGS ]------------------// 
 
 // @project_name : Jinwoo
 // @author : Malvin
@@ -17,7 +17,7 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //--------------------[ SESSION ID ]----------------------//
 
-global.SESSION_ID = process.env.SESSION_ID || '' 
+global.SESSION_ID = process.env.SESSION_ID || 'jinwoo:~c31WkKqK#f5BiZ9luuhlcmRsOo07gZzSYEFZo-VNiOzzJ4jObb_A' 
 //Enter your Jinwoo session id here; must start with jinwoo:~
 
 //--------------------[ BOT NAME ]----------------------//
@@ -26,7 +26,7 @@ global.botname = process.env.BOT_NAME || 'ᴊɪɴᴡᴏᴏ-ʙᴏᴛ'
 
 //-----------------[ OWNER NUMBER ]------------------//
 
-global.ownernumber = process.env.OWNER_NUMBER || '263780166288' 
+global.ownernumber = process.env.OWNER_NUMBER || '252702132341' 
 
 //--------------------[ SUDO ]--------------------------//
 
@@ -36,15 +36,15 @@ global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['263714757857', 
 
 //-----------------[ OWNER NAME ]------------------//
 
-global.ownername = process.env.OWNER_NAME || 'ᴍᴀʟᴠɪɴ ᴋɪɴɢ' 
+global.ownername = process.env.OWNER_NAME || 'J͜͡ 𝔞N𝐊Ȋ̈S͟ *K͎ᕼA͜͡ N̆̈' 
 
 //------------[ STICKER PACKNAME ]-----------------//
 
-global.packname = process.env.STICKER_PACK_NAME || "jinwoo" 
+global.packname = process.env.STICKER_PACK_NAME || "J͜͡ 𝔞N𝐊Ȋ̈S͟ *K͎ᕼA͜͡ N̆̈" 
 
 //--------------[ STICKER AUTHOR NAME ]------------//
 
-global.author = process.env.STICKER_AUTHOR_NAME || "sung" 
+global.author = process.env.STICKER_AUTHOR_NAME || "J͜͡ 𝔞N𝐊Ȋ̈S͟ *K͎ᕼA͜͡ N̆̈" 
 
 //-------------------[ BOT'S PREFIX ]--------------------//
 
@@ -52,7 +52,7 @@ global.prefixz = process.env.BOT_PREFIX || '.'
 
 //-----------------[ BOT'S MODE ]-----------------------//
 
-global.mode = process.env.MODE || 'public';
+global.mode = process.env.MODE || 'private';
 // Set 'private' to enable private mode
 // Set 'public' to enable public mode
 // Set 'group' to enable only group
@@ -64,7 +64,7 @@ global.statusemoji = process.env.STATUS_EMOJI || '🧡'
 
 //---------------[ AUTO VIEW STATUS ]---------------//
 
-global.autoviewstatus = process.env.AUTO_STATUS_VIEW || 'true'
+global.autoviewstatus = process.env.AUTO_STATUS_VIEW || 'false'
 // set true to enable and false to disable auto status view
 
 //--------------[ AUTO REACT STATUS ]--------------//
@@ -74,7 +74,7 @@ global.autoreactstatus = process.env.AUTO_STATUS_REACT || 'false'
 
 //---------------[ ALWAYS ONLINE ]------------------//
 
-global.alwaysonline = process.env.ALWAYS_ONLINE || 'true'
+global.alwaysonline = process.env.ALWAYS_ONLINE || 'false'
 //Set true to make the bot online 24/7 or set false to disable always online
 
 
